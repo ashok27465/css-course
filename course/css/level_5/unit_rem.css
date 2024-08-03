@@ -1,0 +1,16 @@
+*{
+    margin:0; padding:o; font-size: 50px;
+}
+#first{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    text-transform: capitalize;
+    font-size: 10px;
+}
+#second{
+    background-color: cadetblue;
+    height: 50%;
+    width: 70%;
+    font-size: 2rem;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0; padding: o;
+}
+#first{
+    background-color: aqua;
+    height: 70px;
+    font-size: 20px;
+}
+#second{
+    background-color: blueviolet;
+    font-size: 20px;
+    height: 30%;
+}

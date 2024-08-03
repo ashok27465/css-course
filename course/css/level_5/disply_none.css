@@ -1,0 +1,16 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:cadetblue;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid;
+    border-radius: 20px;
+}
+#box2{
+    display: none;
+}
+
+/* #box2{
+    visibility: hidden;
+} */
