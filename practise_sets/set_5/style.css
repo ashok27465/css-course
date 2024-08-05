@@ -1,15 +1,15 @@
-*{margin: 0; padding: 0;}
+*{margin:0; padding:0;}
+header{
+    background-color: palegreen;
+    height: 38px;
+}
 nav{
     padding: 10px;
 }
 nav a{
     text-decoration: none;
     text-transform: capitalize;
-    margin-left:55px ;
-}
-header{
-    background-color: palegreen;
-    height: 38px;
+    margin-left:55px;
 }
 #first{
     height: 50px;
