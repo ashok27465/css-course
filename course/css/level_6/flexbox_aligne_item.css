@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items:center;
+    /* align-items: start; */
+    /* align-items: end; */
 }
 #box1{background-color: aquamarine;}
 #box2{background-color: chartreuse;}
