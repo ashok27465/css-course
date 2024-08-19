@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transition property</title>
+    <style>
+        .btn{
+            width: 150px;
+            height: 35px;
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: aliceblue;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+            /* transition: all 1s ease-in-out 1s; */
+        }
+        .btn:hover {
+            height:40px;
+            width: 150px;
+            border: 1px solid red;
+        }
+        .btn:active{
+            height: 40px;
+            width: 150px;
+            border: 1px solid red;
+            background-color:lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">click me</button>
+</body>
+</html>
