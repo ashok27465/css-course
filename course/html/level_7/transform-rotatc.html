@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>transform rotatc</title>
+    <style>
+        .box{
+            height: 55px;
+            width: 55px;
+            padding: 5px;
+            margin: 20px;
+            border: 2px solid;
+            border-radius: 5px;
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+        }
+        #box1 { background-color: lime;}
+        #box1:hover { transform: rotate(45deg); }
+        #box2 { background-color: blueviolet;}
+        #box2:hover { transform: rotate(180deg); }
+        #box3 { background-color: indianred;}
+        #box3:hover { transform: rotatex(45deg); }
+        #box4 { background-color: violet;}
+        #box4:hover { transform: rotatey(45deg); }
+    </style>
+</head>
+<body>
+  <div class="box" id="box1"><sup>Box1</sup></div>
+  <div class="box" id="box2"><sup>Box2</sup></div>
+  <div class="box" id="box3"><sup>Box3</sup></div>
+  <div class="box" id="box4"><sup>Box4</sup></div>  
+</body>
+</html>
