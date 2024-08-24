@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    margin-top: 25px;
+    text-align: center;
+    text-decoration:underline dotted;
+}
+.progress-container{
+    width: 90%;
+    height: 25px;
+    background-color: gainsboro;
+
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.progress-bar{
+    background-color: mediumorchid;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+
+    animation-name: animate-progress;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out ;
+}
+@keyframes animate-progress{
+    from{width: 1%;}
+    to{width: 100%;}
+}
